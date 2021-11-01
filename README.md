@@ -14,7 +14,7 @@ A minimal but opinionated quick start template for frontend projects.
 1. Clone this repository
 
 ```shell
-$ git clone --depth=1 git@github.com:filp/frontend.git
+$ git clone --depth=1 git@github.com:filp/frontend.git your-project-name
 ```
 
 2. Install dependencies
@@ -36,3 +36,4 @@ $ yarn serve
 
 - Review `webpack.config.js` - it's a good start, but probably won't fit your needs exactly
 - Setup your test process
+- Update `package.json` with your project's name and description
