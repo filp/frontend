@@ -1,0 +1,40 @@
+{
+  "name": "frontend-template",
+  "version": "0.1.0",
+  "description": "A quick start template for frontend projects",
+  "repository": "git@github.com:filp/frontend.git",
+  "author": "Filipe Dobreira <dobreira@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-router-dom": "^5.3.2",
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.4.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.31.0",
+    "react-router-dom": "^5.3.0"
+  }
+}
